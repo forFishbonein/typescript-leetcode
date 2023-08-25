@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 指定 ECMAScript 目标版本
+    "module": "NodeNext", // 指定模块标准
+    "lib": ["ESNext"], // 指定要包含在编译中的库文件
+    "strict": true, // 启用所有严格的类型检查选项
+    "strictNullChecks": false, // 启用严格的空（undefined、null）检查”
+    "noImplicitReturns": true, // 不是函数中的所有代码路径都返回值时报告错误
+    "noFallthroughCasesInSwitch": true, // 在 switch 语句中报告失败情况的错误
+    "forceConsistentCasingInFileNames": true, // 禁止对同一文件的大小写不一致的引用
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules"]
+}
